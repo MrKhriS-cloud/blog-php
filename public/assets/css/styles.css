@@ -1,0 +1,50 @@
+/* ============================= */
+/*  Styles pour la gestion des articles */
+/* ============================= */
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content-col {
+    max-width: 500px; /* Limite la largeur de la colonne Contenu */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.btn-sm {
+    font-size: 0.8rem; /* Taille réduite pour les boutons */
+    padding: 5px 8px;
+}
+
+/* Ajout d'une table responsive */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* ============================= */
+/*  Styles généraux */
+/* ============================= */
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+
+
+
